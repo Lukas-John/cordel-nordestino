@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*  topo da página */
+header{
+        text-align: center;
+        text-shadow: 2px 2px 1px #00000033;
+
+        padding-top: 10vh;
+
+        font: bold 1.8em helvetica,serif;
+
+        background: #ffa500 url(../img/fundo-ceu.jpg) top center no-repeat fixed;
+        background-size: cover;
+
+}
+header > p {
+        padding-bottom: 10vh;
+
+        font: bolder 1.1em helvetica,serif;
+}
+/* navegação */
+a{
+        text-decoration: none;
+
+        color:darkblue;
+        
+}
+a:hover{
+        color: #000000;
+       text-decoration:  underline #2b012b;
+        
+}
+
+header > nav > ul.display-Inline > li{
+    
+        font: bold 1em serif;
+
+        text-shadow: 2px 2px 1px #0000004d;
+
+        display: inline-table;
+
+        padding: 5px;
+}
+/* principal */
+main{
+        padding: 1.5em;
+        margin: auto;
+        margin-top: 1px;
+        
+        font: bolder 1.9em monospace,serif;
+
+        background-image: linear-gradient(to top,#ffa600fd,#800080af);
+
+        line-height: 1.3em;
+}
+section > p::first-letter{
+        font: italic 2.2em monospace;
+}
+section.normal{
+        color: #2b012b;
+        
+        padding-bottom: 20px;
+        max-width: 700px;
+        min-width: 250px;
+
+        text-align: justify;
+        text-shadow: 2px 3px 5px #00000093;
+
+}
+section.imagem{
+       background:#00000000 url(../img/fundo-cordel-04.jpg) center center no-repeat fixed;
+       background-size: cover;
+
+       padding: 20px;
+       max-width: 700px;
+       min-width: 250px;
+
+}
+/* resumo a parte */
+aside > p {
+       font: normal 1.5em serif;
+       padding: 15px;
+
+       text-indent: 15px ;
+       text-align: justify;
+
+       background-image: linear-gradient(to bottom,#ffa600fd,#800080af);
+}
+aside > p::first-letter{
+        font: bold 1.5em serif;
+}
+
+footer{
+        background-color: #800080d7;
+        color: #ffffff;
+
+        padding: 20px;
+
+        text-align: center;
+        text-shadow: 2px 3px 5px #00000093;
+
+        font: bold 1.7em serif;
+
+        border: 5px solid #000000;
+        border-radius: 13px;
+}
