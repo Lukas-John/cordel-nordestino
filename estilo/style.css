@@ -38,41 +38,45 @@ a:hover{
         text-decoration:  underline #2b012b;
 
         border: 1px solid #000000;
-        border-radius: 10px;
+        border-radius: 5px;
 
-        padding: 3px 2px 2px 2px;
+        padding: 1px;
         
 }
 
-header > nav > ul.display-Inline > li{
+ul.display-Inline > li{
     
-        font: bold 1em serif;
+        font: bold 1.2em serif;
 
         text-shadow: 2px 2px 1px #0000004d;
 
-        display: inline-table;
+        display: inline-block;
+        flex-wrap: wrap;
 
-        padding: 5px;
+        padding-bottom: 20px;
+        padding-left: 20px;
 }
 /* principal */
 main{
-        padding: 1.5em;
         margin: auto;
-        margin-top: 1px;
+        padding: 30px;
         
         font: bolder 1.9em monospace,serif;
 
         background-image: linear-gradient(to top,#ffa600fd,#800080af);
 
         line-height: 1.3em;
+
+        box-shadow: inset 7px 7px 13px #0000006e;
 }
-section > p::first-letter{
-        font: italic 2.2em monospace;
+section{
+        display: block;
 }
+
 section.normal{
         color: #2b012b;
         
-        padding-bottom: 20px;
+        padding: 10px;
         max-width: 700px;
         min-width: 250px;
 
@@ -102,19 +106,16 @@ aside > p {
 
        background-image: linear-gradient(to bottom,#ffa600fd,#800080af);
 }
-aside > p::first-letter{
-        font: bold 1.5em serif;
-}
 
 footer{
         background-color: #800080d7;
         color: #ffffff;
 
         padding: 20px;
-        margin-top: 1px;
+        margin: 1px;
 
-        text-align: center;
         text-shadow: 2px 3px 5px #00000093;
+        text-align: center;
 
         font: bold 1.7em serif;
 
